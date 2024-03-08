@@ -21,6 +21,9 @@ for (let i = 0; i < mail.length; i++) {
         mailFound = true;
     }
 }
+
+// Se la mail datami dall'utente la trovo nella mia lista lo avverto che è registrata 
+// in caso contrario gli dico che non è registrata
 if (mailFound === true) {
     alert(`la tua mail è registrata`)
 } else {
