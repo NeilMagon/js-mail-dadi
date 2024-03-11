@@ -13,9 +13,12 @@ console.log(pc);
 // il numero più alto vince
 let winner;
 if (user > pc) {
-    winner = `l'utente ha vinto`;
+    winner = `L'utente ha vinto`;
 } else if (pc > user) {
-    winner = `il pc ha vinto`;
+    winner = `Il pc ha vinto`;
+} else{
+    winner = `Pareggio`;
 }
+alert (winner);
 console.log(winner);
 
